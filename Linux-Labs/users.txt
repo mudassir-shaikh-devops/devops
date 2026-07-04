@@ -1,0 +1,18 @@
+Linux Users and Groups Notes
+
+1. Types of users:
+- Root user: Full admin access
+- Regular user: Limited access
+- System user: Used by services
+
+2. Commands:
+- whoami → show current user
+- id → show user ID and groups
+- adduser username → create user
+- passwd username → set password
+- deluser username → delete user
+
+3. Groups:
+- groupadd devops → create group
+- usermod -aG devops username → add user to group
+- groups username → show user groups
