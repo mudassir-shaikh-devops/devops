@@ -1,2 +1,0 @@
-docker build -t node-app .
-docker run node-app
