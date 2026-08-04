@@ -1,0 +1,10 @@
+--- 
+- name: First Basic Playbook
+  hosts: localhost
+  become: true
+  tasks:
+  - name: Test Connectivity
+    ping:
+  - name: Show Message
+    debug:
+      msg: "Successfully Executed"

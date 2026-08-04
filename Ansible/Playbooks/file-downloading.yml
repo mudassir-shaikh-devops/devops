@@ -1,0 +1,10 @@
+---
+- name: Downloading File Through Urls
+  hosts: localhost
+  become: true
+
+  tasks:
+  - name: File Downloading from GitHub Repo
+    get_url:
+      url: https://raw.githubusercontent.com/ShaikhMudassir09/local_repo2/main/style.css
+      dest: /tmp/

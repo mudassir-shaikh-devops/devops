@@ -1,0 +1,15 @@
+---
+- name: Modify Cron Job
+  hosts: localhost
+  become: true
+
+  tasks:
+  - name: Adding Env Variables
+    cron:
+      name: VAR-2
+     # state: absent ---> use to remove 
+      env: yes
+      user: ubuntu
+      job: /tmp/scripts/test.sh
+      insertafter: PATH
+      state: absent

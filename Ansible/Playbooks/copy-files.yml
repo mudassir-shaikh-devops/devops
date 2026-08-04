@@ -1,0 +1,14 @@
+---
+- name: Copying Files
+  hosts: localhost
+  become: true
+
+  tasks:
+  - name: copy files
+    copy:
+      src: /tmp/myfile.txt
+      dest: /etc/
+      owner: ubuntu
+      group: root
+      mode: ug+rwx,o+rw
+      backup: true
