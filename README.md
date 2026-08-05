@@ -34,7 +34,7 @@ I'm currently learning modern DevOps tools and cloud technologies.
 ## Connect With Me
 
 LinkedIn:
-linkedin.com/in/mudassir-shaikh-1b316b420
+https://www.linkedin.com/in/mudassir-shaikh-1b316b420/
 
 Email:
 iammudassirshaikh05@gmail.com
