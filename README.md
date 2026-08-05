@@ -12,21 +12,18 @@ I'm currently learning modern DevOps tools and cloud technologies.
 - Docker
 - Docker Compose
 - AWS
-- Terraform
 - Ansible
 - Jenkins
 - GitHub Actions
-- Kubernetes (Learning)
 - Bash
 - Python
 
 ## Currently Learning
 
 - Kubernetes
+- Terraform
 - Prometheus
 - Grafana
-- CI/CD
-- AWS
 
 ## Goals
 
@@ -37,7 +34,7 @@ I'm currently learning modern DevOps tools and cloud technologies.
 ## Connect With Me
 
 LinkedIn:
-(Your LinkedIn)
+linkedin.com/in/mudassir-shaikh-1b316b420
 
 Email:
-your@email.com
+iammudassirshaikh05@gmail.com
