@@ -1,0 +1,12 @@
+---
+- name: Run a Script
+  hosts: localhost
+  become: true
+
+  tasks:
+  - name: Run Script
+   # shell: /tmp/scripts/test.sh  --> this step will create file but not print the messsage
+    shell: ./test.sh  >> test.log
+    args:
+      chdir: /tmp/scripts/
+      creates: test.log

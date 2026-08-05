@@ -1,0 +1,17 @@
+---
+- name: Cron Setup
+  hosts: localhost
+  become: true
+
+  tasks:
+  - name: Add cron job
+    cron:
+      name: Run Test Script
+      minute: 15
+      hour: 20
+      day: 15
+      month: "*"
+      weekday: "*"
+      user: ubuntu
+      job: /tmp/scripts/test.sh
+      disabled: yes

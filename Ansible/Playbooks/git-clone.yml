@@ -1,0 +1,11 @@
+---
+- name: Cloning into github repo
+  hosts: localhost
+  become: true
+
+  tasks:
+  - name: Cloning into my repo
+    git:
+      repo: https://github.com/ShaikhMudassir09/shaikhmudassir.git
+      dest: /home/ubuntu/Github
+      update: yes
